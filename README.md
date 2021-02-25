@@ -1,24 +1,24 @@
-# Portfoilo
+# Portfolio
 
-## [엄선 Android App](http://umsun.co.kr/)
+조정흠의 포트폴리오입니다.
 
-[Google Play 링크](https://play.google.com/store/apps/details?id=com.umsun.application)
+# [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
-### 프로젝트 소개
+## [엄선 Android App](https://play.google.com/store/apps/details?id=com.umsun.application)
 
-- 2018.7 ~ 2020.12
-- Android - 1명(본인), iOS - 2명, Server - 1명
-- Android, Kotlin, MVVM, RxKotlin, RxAndroid, Retrofit, Glide, Rest Api, ExoPlayer
+프로젝트 | -
+--- | ---
+기간 | 2018.7 ~ 2020.12
+인원 | Android 1 </br> iOS 2 </br> Server 1
+나의 역할 | 안드로이드 App 전담 </br> Rest Api 설계 </br>
+사용 기술 | Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
 
-### 주요 기능 및 나의 역할
+### 주요 기능
 
-- 시식 커머스
-- 미디어 리뷰 (포토, 비디오)
-- 시식 설문평가
+- 온라인 시식 (커머스, 미디어 리뷰, 설문 평가)
 - 유저 커뮤니티
-- 가공식품 첨가물&성분 정보
-- 프로필 입력
-- 별점 평가
+- 가공식품 첨가물&성분 정보, 별점 평가
+- 리워드 포인트
 
 ### 회원가입
 
