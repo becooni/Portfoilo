@@ -20,11 +20,11 @@
 - 프로필 입력
 - 별점 평가
 
-### 1. 회원가입
+### 회원가입
 
 <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_join.gif" width="30%">
 
-### 2. 시식 커머스
+### 시식 커머스
 
 <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_sample_list.gif" width="30%">
 
