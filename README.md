@@ -15,9 +15,11 @@
 
 ### 주요 기능
 
-- 온라인 시식 (커머스, 미디어 리뷰, 설문 평가)
+- 온라인 시식 커머스
+- 미디어 리뷰 & 설문 평가
 - 유저 커뮤니티
-- 가공식품 첨가물&성분 정보, 별점 평가
+- 가공식품 첨가물&성분 정보
+- 별점 평가
 - 리워드 포인트
 
 ### 회원가입
@@ -35,4 +37,18 @@
   <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_mysamples.gif" width="30%" style="margin-left: 0px;">
 
 </div>
+
+### 리뷰
+
+<div>
+
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_write" width="30%">
+
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_list.gif" width="30%" style="margin-left: 0px;">
+
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_item.gif" width="30%" style="margin-left: 0px;">
+
+</div>
+
+### 식품 정보
 
