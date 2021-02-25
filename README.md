@@ -26,13 +26,12 @@
 
 ### 시식 커머스
 
-<div>
+
 
   <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_sample_list.gif" width="30%">
 
-  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_sample_request.gif" width="30%" style="margin-left: 10px;">
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_sample_request.gif" width="30%">
 
-  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_mysamples.gif" width="30%" style="margin-left: 10px;">
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_mysamples.gif" width="30%">
 
-</div>
 
