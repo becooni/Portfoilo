@@ -4,9 +4,9 @@
 
 # [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
-## [엄선 Android App](https://play.google.com/store/apps/details?id=com.umsun.application)
+## [엄선](https://play.google.com/store/apps/details?id=com.umsun.application)
 
-프로젝트 | -
+프로젝트 | Android App
 --- | ---
 기간 | 2018.7 ~ 2020.12
 인원 | Android 1 </br> iOS 2 </br> Server 1
