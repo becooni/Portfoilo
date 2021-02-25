@@ -42,7 +42,7 @@
 
 <div>
 
-  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_write" width="30%">
+  <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_write.gif" width="30%">
 
   <img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_review_list.gif" width="30%" style="margin-left: 0px;">
 
