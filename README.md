@@ -24,7 +24,12 @@
 
 ### 회원가입
 
-<img src="https://github.com/becooni/Portfoilo/blob/main/video/umsun_join.mp4" width="30%">
+<video controls width="30%">
+
+    <source src=""https://github.com/becooni/Portfoilo/blob/main/video/umsun_join.mp4""
+            type="video/mp4">
+
+</video>
 
 ### 시식 커머스
 
