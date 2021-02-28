@@ -26,8 +26,8 @@
 
 <div>
 
-  <img src="https://user-images.githubusercontent.com/5853404/109418111-f514af80-7a09-11eb-8b68-2ac6bf710b09.png" width="30%" style="margin-right: 10px;">
-  
+  <img src="https://user-images.githubusercontent.com/5853404/109418645-dcf25f80-7a0c-11eb-8c9d-78ac58ea8aec.png" width="30%" style="margin-right: 10px;">
+
   <img src="https://user-images.githubusercontent.com/5853404/109418582-84bb5d80-7a0c-11eb-80a0-093324a4516a.gif" width="30%" style="margin-right: 10px;">
   
 </div>
