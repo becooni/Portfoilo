@@ -6,18 +6,9 @@
 
 ## [엄선](https://play.google.com/store/apps/details?id=com.umsun.application)
 
-프로젝트 | Android App
---- | ---
-기간 | 2018.7 ~ 2020.12
-인원 | Android 1 </br> iOS 2 </br> Server 1
-나의 역할 | 안드로이드 App 전담 </br> Rest Api 설계 </br>
-사용 기술 | Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
-
-
-
-프로젝트 | 기간 | 인원 | 나의 역할 | 사용 기술
---- | --- | --- | --- | ---
-[엄선](https://play.google.com/store/apps/details?id=com.umsun.application) | 2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> Rest Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
+기간 | 인원 | 나의 역할 | 사용 기술
+--- | --- | --- | ---
+2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> Rest Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
 
 ### 주요 기능
 
