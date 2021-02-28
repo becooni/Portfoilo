@@ -28,9 +28,9 @@
 
 ### 회원가입
 
-로그인 | 프로필 입력 | 300
- --- | --- | ---
- <img src="https://user-images.githubusercontent.com/5853404/109418645-dcf25f80-7a0c-11eb-8c9d-78ac58ea8aec.png" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109419324-2e501e00-7a10-11eb-8510-0e87f7a9fb06.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109419897-204fcc80-7a13-11eb-8ef8-68b1357b88c5.gif" width="300px">
+로그인 | 프로필 입력
+ --- | ---
+ <img src="https://user-images.githubusercontent.com/5853404/109418645-dcf25f80-7a0c-11eb-8c9d-78ac58ea8aec.png" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109419324-2e501e00-7a10-11eb-8510-0e87f7a9fb06.gif" width="300px">
 
 ### 시식 커머스
 
