@@ -1,7 +1,5 @@
 # Portfolio
 
-조정흠의 포트폴리오입니다.
-
 # [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
 ## [엄선](https://play.google.com/store/apps/details?id=com.umsun.application)
