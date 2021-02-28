@@ -50,3 +50,8 @@
 --- | ---
 <img src="https://user-images.githubusercontent.com/5853404/109420891-34e29380-7a18-11eb-9ffc-c28f2266696c.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421054-02856600-7a19-11eb-930a-97cd08cd52a1.gif" width="300px">
 
+### 커뮤니티
+
+톡톡 리스트 | 톡톡 상세 | 톡톡 작성
+--- | --- | ---
+<img src="https://user-images.githubusercontent.com/5853404/109421543-277ad880-7a1b-11eb-82ed-17b92339ddd2.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421547-2a75c900-7a1b-11eb-9216-03616310cecc.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421548-2ba6f600-7a1b-11eb-95ac-401d176354c3.gif" width="300px">
