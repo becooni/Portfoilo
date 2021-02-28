@@ -47,6 +47,6 @@
 ### 식품 정보
 
  식품 리스트 | 식품 상세
---- | --- | ---
+--- | ---
 <img src="https://user-images.githubusercontent.com/5853404/109420891-34e29380-7a18-11eb-9ffc-c28f2266696c.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421054-02856600-7a19-11eb-930a-97cd08cd52a1.gif" width="300px">
 
