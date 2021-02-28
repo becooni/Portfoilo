@@ -24,6 +24,8 @@
 
 ### 회원가입
 
+<img src="https://user-images.githubusercontent.com/5853404/109418111-f514af80-7a09-11eb-8b68-2ac6bf710b09.png" width="30%"/>
+
 ### 시식 커머스
 
 ### 리뷰
