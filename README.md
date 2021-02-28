@@ -38,7 +38,7 @@
 
 시식 리스트 | 시식 신청 | 신청 현황 
 --- | --- | ---
-<img src="https://user-images.githubusercontent.com/5853404/109419545-57bd7980-7a11-11eb-887d-6cc903cb07be.gif" width="30%" style="margin-right: 10px;"> | <img src="https://user-images.githubusercontent.com/5853404/109419561-6efc6700-7a11-11eb-8ffc-e99a4edb386d.gif" width="30%" style="margin-right: 10px;"> | <img src="https://user-images.githubusercontent.com/5853404/109419582-850a2780-7a11-11eb-998a-d9b8fd492545.gif" width="30%" style="margin-right: 10px;">
+<img src="https://user-images.githubusercontent.com/5853404/109419545-57bd7980-7a11-11eb-887d-6cc903cb07be.gif"> | <img src="https://user-images.githubusercontent.com/5853404/109419561-6efc6700-7a11-11eb-8ffc-e99a4edb386d.gif"> | <img src="https://user-images.githubusercontent.com/5853404/109419582-850a2780-7a11-11eb-998a-d9b8fd492545.gif">
 
 <div>
 
