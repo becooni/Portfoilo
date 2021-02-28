@@ -4,6 +4,8 @@
 
 ## [엄선](https://play.google.com/store/apps/details?id=com.umsun.application)
 
+*온라인 시식 커머스&리뷰, 가공식품 첨가물&성분 정보 서비스*
+
 기간 | 인원 | 나의 역할 | 사용 기술
 --- | --- | --- | ---
 2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
@@ -15,12 +17,7 @@
 - 유저 커뮤니티
 - 가공식품 첨가물&성분 정보
 - 별점 평가
-- 리워드 포인트
-
- | |
---- | ---
-<img src="" width="300px"> | <img src="" width="300px"> | <img src="" width="300px">
-
+- 포인트
 
 ### 회원가입
 
