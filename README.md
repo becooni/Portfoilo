@@ -52,7 +52,13 @@
 --- | --- | ---
 <img src="https://user-images.githubusercontent.com/5853404/109421543-277ad880-7a1b-11eb-82ed-17b92339ddd2.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421547-2a75c900-7a1b-11eb-9216-03616310cecc.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421548-2ba6f600-7a1b-11eb-95ac-401d176354c3.gif" width="300px">
 
-### 포인트 리워드
+### 별점
+
+평가 | 리스트
+--- | ---
+<img src="https://user-images.githubusercontent.com/5853404/109422334-7a09c400-7a1e-11eb-9abb-344305cf2630.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109422545-585d0c80-7a1f-11eb-9c0b-71711484107b.gif" width="300px">
+
+### 포인트
 
 출석체크 | 포인트 내역
 --- | ---
