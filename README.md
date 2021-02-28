@@ -17,9 +17,10 @@
 - 별점 평가
 - 리워드 포인트
 
-<img src="" width="30%" style="margin-right: 10px;">
+ | |
+--- | ---
+<img src="" width="300px"> | <img src="" width="300px"> | <img src="" width="300px">
 
-<img src="">
 
 ### 회원가입
 
@@ -50,3 +51,9 @@
 톡톡 리스트 | 톡톡 상세 | 톡톡 작성
 --- | --- | ---
 <img src="https://user-images.githubusercontent.com/5853404/109421543-277ad880-7a1b-11eb-82ed-17b92339ddd2.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421547-2a75c900-7a1b-11eb-9216-03616310cecc.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421548-2ba6f600-7a1b-11eb-95ac-401d176354c3.gif" width="300px">
+
+### 포인트 리워드
+
+출석체크 | 포인트 내역
+--- | ---
+<img src="https://user-images.githubusercontent.com/5853404/109421933-c227e700-7a1c-11eb-83ff-abfa88437369.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421938-c8b65e80-7a1c-11eb-92f1-b421bb6ecf65.gif" width="300px">
