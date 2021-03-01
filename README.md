@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 # [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
@@ -8,16 +8,13 @@
 
 기간 | 인원 | 나의 역할 | 사용 기술
 --- | --- | --- | ---
-2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> App 서비스 개발 </br> Java -> Kotlin 전환 </br> MVVM + RxKotlin 리팩토링 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer
+2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> App 서비스 고도화 & 유지보수 </br> Java -> Kotlin 90% 전환 </br> MVVM + RxKotlin 리팩토링 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer </br> 
 
-### 주요 기능
+앱 다운로드 링크 - https://play.google.com/store/apps/details?id=com.umsun.application
 
-- 온라인 시식 커머스
-- 미디어 리뷰 & 설문 평가
-- 유저 커뮤니티
-- 가공식품 첨가물&성분 정보
-- 별점 평가
-- 포인트
+## App 시연 이미지
+
+> 모든 기능 100% 담당
 
 ### 회원가입
 
