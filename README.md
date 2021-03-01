@@ -7,8 +7,8 @@
 *온라인 시식 커머스&리뷰, 가공식품 첨가물&성분 정보 서비스*
 
 기간 | 인원 | 나의 역할 | 사용 기술
---- | --- | --- | ---
-2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> App 서비스 고도화 & 유지보수 </br> Java -> Kotlin 90% 전환 </br> MVVM + RxKotlin 리팩토링 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> Rest Api </br> ExoPlayer </br> 
+--- | --- | --- | --- 
+2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 전담 </br> App 서비스 고도화 & 유지보수 </br> Java -> Kotlin 90% 전환 </br> MVVM + RxKotlin 리팩토링 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> JetPack - LiveData, ViewModel, DataBinding </br> Rest Api </br> ExoPlayer </br> 
 
 앱 다운로드 링크 - https://play.google.com/store/apps/details?id=com.umsun.application
 
