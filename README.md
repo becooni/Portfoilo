@@ -222,7 +222,8 @@ ATF 영역 | 상품 이미지 | 상품 리스트
 
 <img width="400" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/af3a9b5a-ea29-4a99-9dcf-4743b8b39e5f">
 
-- Nokia MMS Open Source를 활용하여 안드로이드 단말로 통화 발신/수신 후 MMS를 자동으로 발신하는 기능
+- Nokia MMS Open Source를 활용하여 통화 발신/수신 후 MMS를 자동으로 발신하는 기능
+- 앱을 설치할 수 없는 전화는 CID 장비(발신자표시장치) 혹은 KT OPEN API를 이용하여 발신자 번호를 서버로 수집 -> 안드로이드 앱에 FCM으로 전달
 - 로컬 DB에 SMS/MMS 발송 기록을 저장하고 체크하여 MMS 발신을 제한함 (통신사 별 발송 제약)
 - MMS 발송 내역 기능
 - 동일 고객 중복발송 제한 기간 기능
