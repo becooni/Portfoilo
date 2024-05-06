@@ -3,6 +3,7 @@
 # Index
 - [11번가](#11번가)
 - [트라이어스앤컴퍼니](#트라이어스앤컴퍼니)
+- [에이앤피알](#에이앤피알)
 
 # [11번가](https://11st.co.kr)
 *국내 대형 e-commerce 서비스*
@@ -184,3 +185,46 @@ ATF 영역 | 상품 이미지 | 상품 리스트
 출석체크 | 포인트 내역
 --- | ---
 <img src="https://user-images.githubusercontent.com/5853404/109421933-c227e700-7a1c-11eb-83ff-abfa88437369.gif" width="300px"> | <img src="https://user-images.githubusercontent.com/5853404/109421938-c8b65e80-7a1c-11eb-92f1-b421bb6ecf65.gif" width="300px">
+
+---
+
+# 에이앤피알
+*배달 음식 주문/관리 서비스*
+
+기간 | 업무 | 기술
+--- | --- | ---
+2014.10 ~ 2018.06 | '배달캐시큐', '배달톡톡', '톡톡메시지', '피알메시지' Android App 개발 | Java, MVP, Volley, Retrofit, ButterKnife, SQLite
+
+## 배달캐시큐, 배달톡톡
+
+<img width="400" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/24944586-cdfe-4f8b-9444-1d324cd8af03">
+<img width="400" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/6f3212f2-afb6-43b4-a671-8ab877cd0e4c">
+
+- 위치기반 배달 음식점 리스트 정보 제공 기능
+- GPS 정보를 가져와 한글 주소로 변환하여 표시
+- Google Maps v2로 지도 제공
+- 장바구니, 주문, 결제 기능
+- 쿠폰/포인트 할인 기능
+- 주문 내역 기능
+- 주문 수락 시 FCM push 수신
+- 리뷰 작성 기능 (별점, 쓰기, 수정, 카메라 촬영 및 사진 업로드)
+- 음식점 메뉴를 보며 주문할 수 있도록 주문 전화를 걸때 메뉴 전단지 이미지 노출 (Service 활용)
+- 매장 이름과 전화번호를 주소록 자동 저장
+
+### 사장님 앱
+- 주문 수락, 거절 기능
+- 영업 개시/종료 기능
+- 주문 발생 시 FCM push 수신
+
+## 톡톡메시지, 피알메시지
+
+<img width="300" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/d8a6f57d-035e-4b81-ac01-605780189dff">
+
+<img width="400" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/af3a9b5a-ea29-4a99-9dcf-4743b8b39e5f">
+
+- Nokia MMS Open Source를 활용하여 안드로이드 단말로 통화 발신/수신 후 MMS를 자동으로 발신하는 기능
+- 로컬 DB에 SMS/MMS 발송 기록을 저장하고 체크하여 MMS 발신을 제한함 (통신사 별 발송 제약)
+- MMS 발송 내역 기능
+- 동일 고객 중복발송 제한 기간 기능
+- 발송 요일 지정 기능
+
