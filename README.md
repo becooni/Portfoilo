@@ -12,27 +12,25 @@
 
 ATF 영역 | 상품 이미지 | 상품 리스트
 --- | --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/de84ff78-fb7b-4c14-bae0-529a80b550c4" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/f0ccc77c-359e-4c3f-bfa6-c1788ec59645" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/b914d687-0bd2-4d00-9788-fdc299b3d3c2" width="300px">
-
+<img src="https://github.com/becooni/portfolio/assets/5853404/e5de16e6-6c58-4b07-8398-137aee5c2a4d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/24726ff5-4c69-4cac-af8e-dcf28849557d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/248ebe26-5de3-4612-8632-85faeb22c904" width="300px">
 
 옵션 | 최대할인가 
 --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/e846dc67-6e01-4333-8dbc-beb6f7fb808a" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/8ba603d9-4b87-45cc-b979-62268af95d0b" width="300px">
+<img src="https://github.com/becooni/portfolio/assets/5853404/c767aa62-699a-4d31-a62d-dd0f7ca48e27" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/e8995517-7c0c-48ac-883c-34ecea712ba2" width="300px">
 
 구매서랍 | 리뷰 필터
 --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/eb9d0650-b9e3-48ff-9331-072cc6c59012" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/5a701e32-e153-4ac3-8a9c-d6ad79854f74" width="300px">
+<img src="https://github.com/becooni/portfolio/assets/5853404/ab80e32d-8a65-492f-9d1b-3139f9b0dc96" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/2b485314-71e5-4f07-a83a-41bb46aaa645" width="300px">
 
 ### 리뷰 작성
 
 메타데이터 입력 1 | 메타데이터 입력 2
 --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/cb4dbbe5-161a-4f04-8d45-1c034f1e8693" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/0dbf3890-8b14-4f20-8e15-de58ee2df124" width="300px">
+<img src="https://github.com/becooni/portfolio/assets/5853404/d0b13285-9b1b-424f-adaa-d6da4aab4308" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/d6108e09-a302-4426-8731-c3e983450045" width="300px">
 
 별점 | 작성 | 첨부
 --- | --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/8b1026c7-1784-4281-a93a-28eb2982954f" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/601b6c7d-5401-4b8f-adba-8cbb41545075" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/dd1e3519-1173-4028-88a5-b169051dda61" width="300px">
-
+<img src="https://github.com/becooni/portfolio/assets/5853404/5019e841-8b90-4b2a-b952-b1515f929b9f" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/d089df27-0ab2-46bb-9014-abfc9733587c" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/c641321c-53fd-4590-ad46-654ed38b2cfb" width="300px">
 
 # [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
