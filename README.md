@@ -32,6 +32,8 @@ ATF 영역 | 상품 이미지 | 상품 리스트
 --- | --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/5019e841-8b90-4b2a-b952-b1515f929b9f" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/d089df27-0ab2-46bb-9014-abfc9733587c" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/c641321c-53fd-4590-ad46-654ed38b2cfb" width="300px">
 
+---
+
 # [트라이어스앤컴퍼니](http://umsun.co.kr/)
 
 ## [엄선](https://play.google.com/store/apps/details?id=com.umsun.application)
