@@ -1,6 +1,10 @@
 # Portfolio
 
-[11번가](https://11st.co.kr)
+# Index
+- [11번가](#11번가)
+- [트라이어스앤컴퍼니](#트라이어스앤컴퍼니)
+
+# [11번가](https://11st.co.kr)
 *국내 대형 e-commerce 서비스*
 2021.5 ~ 재직중
 
@@ -13,16 +17,23 @@
 ATF 영역 | 상품 이미지 | 상품 리스트
 --- | --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/e5de16e6-6c58-4b07-8398-137aee5c2a4d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/24726ff5-4c69-4cac-af8e-dcf28849557d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/248ebe26-5de3-4612-8632-85faeb22c904" width="300px">
+Vertical RecyclerView | ViewPager | Horizontal RecyclerView
 
 옵션 | 최대할인가 
 --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/c767aa62-699a-4d31-a62d-dd0f7ca48e27" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/e8995517-7c0c-48ac-883c-34ecea712ba2" width="300px">
+Horizontal RecyclerView | Generic과 enum을 활용한 Multi-ViewType RecyclerView, Gson
 
 구매서랍 | 리뷰 필터
 --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/ab80e32d-8a65-492f-9d1b-3139f9b0dc96" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/2b485314-71e5-4f07-a83a-41bb46aaa645" width="300px">
+MVI, Jetpack LiveData/ViewModel | Multi-ViewType RecyclerView
 
 ### 리뷰 작성
+
+- MVVM
+- Livedata
+- Jetpack ViewModel
 
 메타데이터 입력 1 | 메타데이터 입력 2
 --- | ---
