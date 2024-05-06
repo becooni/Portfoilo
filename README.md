@@ -6,7 +6,11 @@
 
 # [11번가](https://11st.co.kr)
 *국내 대형 e-commerce 서비스*
-2021.5 ~ 재직중
+
+
+기간 | 업무 | 기술
+--- | --- | ---
+2021.5 ~ 재직중 | '11번가' Android App 개발 및 앱 개발 파트 리드</br>상품상세, 리뷰작성 서비스 고도화 개발 | Kotlin</br>MVVM</br>MVI</br>RxJava</br>Retrofit</br>Jetpack LiveData, ViewModel, ViewBinding, KTX
 
 [11번가 Android 앱 다운로드 링크](https://play.google.com/store/apps/details?id=com.elevenst)
 
@@ -17,17 +21,60 @@
 ATF 영역 | 상품 이미지 | 상품 리스트
 --- | --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/e5de16e6-6c58-4b07-8398-137aee5c2a4d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/24726ff5-4c69-4cac-af8e-dcf28849557d" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/248ebe26-5de3-4612-8632-85faeb22c904" width="300px">
-Vertical RecyclerView | ViewPager | Horizontal RecyclerView
 
-옵션 | 최대할인가 
---- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/c767aa62-699a-4d31-a62d-dd0f7ca48e27" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/e8995517-7c0c-48ac-883c-34ecea712ba2" width="300px">
-Horizontal RecyclerView | Generic과 enum을 활용한 Multi-ViewType RecyclerView, Gson
+- Vertical RecyclerView로 구성된 화면
+- 블럭 단위로 구성 (1 블럭 = 1 ViewHolder)
+- 상품상세 서버 api로 하나의 통 데이터를 얻어와 각 블럭마다 필요한 데이터를 제공해주고 블럭에서 UI 구현
+- 필요에 따라 비동기로 블럭 지연 초기화 (스크롤이 해당 블럭에 도달하기 직전 api 호출 후 UI 초기화)
 
-구매서랍 | 리뷰 필터
+---
+
+최대할인가 | 리뷰 필터
 --- | ---
-<img src="https://github.com/becooni/portfolio/assets/5853404/ab80e32d-8a65-492f-9d1b-3139f9b0dc96" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/2b485314-71e5-4f07-a83a-41bb46aaa645" width="300px">
-MVI, Jetpack LiveData/ViewModel | Multi-ViewType RecyclerView
+<img src="https://github.com/becooni/portfolio/assets/5853404/e8995517-7c0c-48ac-883c-34ecea712ba2" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/2b485314-71e5-4f07-a83a-41bb46aaa645" width="300px">
+
+<img src="https://github.com/becooni/portfolio/assets/5853404/9fa38dad-5c12-4429-989b-db39d74077c6" width="400px">
+
+- Generic과 enum을 활용한 Multi-ViewType RecyclerView, Gson
+- org.json.JSONObject (map) 타입으로 데이터를 관리하던 코드를 model 클래스로 전환 (Domain, UiState class)
+- 트리 구조의 데이터를 flat한 데이터로 변경하여 하나의 RecyclerView에서 Multi-ViewType 제공
+- RecyclerView.ItemDecoration을 활용한 StickyHeader 구현
+
+---
+
+**옵션**
+
+<img src="https://github.com/becooni/portfolio/assets/5853404/c767aa62-699a-4d31-a62d-dd0f7ca48e27" width="300px">
+
+- Horizontal RecyclerView
+- 옵션 변경 시 페이지는 유지하고 데이터만 변경
+- 품절 상품 선택 시 재입고 알림 기능
+- 애플케어 등 추가 구성 상품 기능
+
+### 구매서랍
+
+<img src="https://github.com/becooni/portfolio/assets/5853404/ab80e32d-8a65-492f-9d1b-3139f9b0dc96" width="300px">
+
+- 상품 추가/제거 기능
+- 수량 증감/입력 기능
+- 수량 변경 시 제약 검사 기능
+- 상태 변경(상품, 수량)시 쿠폰가격 갱신 기능
+- 선물하기/주문서/장바구니 담기 기능
+- 주문서 대기열 큐(NetFunnel) 기능
+
+<img width="800" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/8ebf6612-a057-4a8b-8d9a-736b46951f3f">
+
+- Android 앱 아키텍처, MVI, UDF, SSOT을 적용한 구조 설계
+  RxJava, Jetpack LiveData/ViewModel
+- 데이터가 변경될 때 영향 받는 UI 들을 UiState 단위로 그룹핑
+- event를 통해서만 UiState를 변경할 수 있음
+- StateMachine은 ViewModel로 부터 전달 된 event를 받아 적절한 일을 수행하고 UiState를 방출함 (StateMachine은 개념적 표현이며 실제로는 Repository -> UseCase -> ViewModel로 처리)
+- 앞서 StateMachine에서 방출한 UiState를 구독하던 View가 데이터 변경을 감지하고 UI를 갱신함
+- UiState에 영향이 없고 비즈니스 로직 없이 스스로 처리할 수 있는 이벤트는 View에서 스스로 처리함 예) 팝업 닫기, 하드코딩 메세지 토스트 등
+- UiState에 영향이 없지만 비즈니스 로직이 필요하고 View 로직이 필요한 시나리오는 Effect로 처리 예) 화면 이동, 서버 응답 오류 얼럿 메세지, 상품 찜하기 하트 애니메이션 재생 등
+- View 파일 하나에 모든 코드가 있는 레거시 코드 리팩토링
+- org.json.JSONObject (map) 타입으로 데이터를 관리하던 코드를 model 클래스로 전면 전환 (Domain, UiState class)
+- 전략 패턴을 활용하여 유저가 구매수량을 변경할 때 실행되는 제약을 구현 (수량 증가/감소/직접 입력할 때 최소/최대/재고 수량과 묶음(배수) 수량 제약 등을 검사)
 
 ### 리뷰 작성
 
@@ -39,9 +86,16 @@ MVI, Jetpack LiveData/ViewModel | Multi-ViewType RecyclerView
 --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/d0b13285-9b1b-424f-adaa-d6da4aab4308" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/d6108e09-a302-4426-8731-c3e983450045" width="300px">
 
+- RadioButton, CheckBox, Spinner, Calendar 기능
+- MediatorLiveData를 활용한 입력 데이터 유효성 검사 기능 (입력 항목 모두 선택이 완료되면 완료 표시)
+
 별점 | 작성 | 첨부
 --- | --- | ---
 <img src="https://github.com/becooni/portfolio/assets/5853404/5019e841-8b90-4b2a-b952-b1515f929b9f" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/d089df27-0ab2-46bb-9014-abfc9733587c" width="300px"> | <img src="https://github.com/becooni/portfolio/assets/5853404/c641321c-53fd-4590-ad46-654ed38b2cfb" width="300px">
+
+- 작성 화면을 이탈할 때 (onStop 시점) 현재 선택된 별점 저장하는 기능
+- MediatorLiveData를 활용한 입력 데이터 유효성 검사 기능 (각 항목 모두 유효한 입력일 때 저장 가능)
+- 정규표현식을 활용한 작성글 유효성 검사
 
 ---
 
@@ -55,7 +109,8 @@ MVI, Jetpack LiveData/ViewModel | Multi-ViewType RecyclerView
 --- | --- | --- | --- 
 2018.7 ~ 2020.12 | Android 1 </br> iOS 2 </br> Server 1 |  안드로이드 App 99% 담당 </br> App 서비스 고도화 & 유지보수 </br> Java -> Kotlin 90% 전환 </br> MVVM + RxKotlin 리팩토링 </br> Restful Api 설계 </br> |  Kotlin </br> MVVM </br> Clean Architecture </br> RxKotlin </br> JetPack - LiveData, ViewModel, DataBinding </br> Rest Api </br> ExoPlayer </br> 
 
-앱 다운로드 링크 - https://play.google.com/store/apps/details?id=com.umsun.application
+~~앱 다운로드 링크 - https://play.google.com/store/apps/details?id=com.umsun.application~~
+현재 사업 종료로 서비스 중단
 
 ## App 시연 이미지
 
