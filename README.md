@@ -36,7 +36,7 @@ ATF 영역 | 상품 이미지 | 상품 리스트
 
 <img src="https://github.com/becooni/portfolio/assets/5853404/9fa38dad-5c12-4429-989b-db39d74077c6" width="400px">
 
-- Generic과 enum을 활용한 Multi-ViewType RecyclerView, Gson
+- Generic과 enum을 활용한 Multi-ViewType RecyclerView, Gson, BottomSheetDialogFragment
 - org.json.JSONObject (map) 타입으로 데이터를 관리하던 코드를 model 클래스로 전환 (Domain, UiState class)
 - 트리 구조의 데이터를 flat한 데이터로 변경하여 하나의 RecyclerView에서 Multi-ViewType 제공
 - RecyclerView.ItemDecoration을 활용한 StickyHeader 구현
@@ -66,7 +66,7 @@ ATF 영역 | 상품 이미지 | 상품 리스트
 <img width="800" alt="image" src="https://github.com/becooni/portfolio/assets/5853404/8ebf6612-a057-4a8b-8d9a-736b46951f3f">
 
 - Android 앱 아키텍처, MVI, UDF, SSOT을 적용한 구조 설계
-  RxJava, Jetpack LiveData/ViewModel
+  RxJava, Jetpack LiveData/ViewModel, BottomSheetDialogFragment
 - 데이터가 변경될 때 영향 받는 UI 들을 UiState 단위로 그룹핑
 - event를 통해서만 UiState를 변경할 수 있음
 - StateMachine은 ViewModel로 부터 전달 된 event를 받아 적절한 일을 수행하고 UiState를 방출함 (StateMachine은 개념적 표현이며 실제로는 Repository -> UseCase -> ViewModel로 처리)
